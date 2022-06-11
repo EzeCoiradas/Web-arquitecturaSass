@@ -1,0 +1,34 @@
+@import "_mixins.scss";
+#back0{
+		background-color: #9f2854;
+		color: white;
+		a{
+			color: white;
+			&:hover{
+			color: black;
+		}
+	}
+}
+.fondo1{
+	background-image: url("../imagenes/wallpaper.jpg");
+	@include fondo;
+}
+.fondo2{
+	background-image: url('../imagenes/wallpaper2.jpg');
+	@include fondo;
+}
+.fondo3{
+	background-image: url('../imagenes/wallpaper3.jpg');
+	@include fondo;
+}
+.fondo4{
+	background-image: url('../imagenes/wallpaper4.jpg');
+	@include fondo;
+}
+.fondo5{
+	background-image: url('../imagenes/wallpaper5.jpg');
+	@include fondo;
+}
+#footer{
+	margin-top: 100vh;
+}	
